@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/vs.pro/.vs/vs.pro
+/vs.pro/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1
+/vs.pro/vs.pro.simple-controls/bin
+/vs.pro/vs.pro.simple-controls/obj/Debug
+/vs.pro/vs.pro.simple-controls/Web.Debug.config
+/vs.pro/vs.pro.simple-controls/Web.Release.config
+/vs.pro/vs.pro.simple-controls/vs.pro.simple-controls.csproj.user
