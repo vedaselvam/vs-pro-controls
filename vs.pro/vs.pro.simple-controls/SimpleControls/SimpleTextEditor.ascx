@@ -8,3 +8,6 @@
 &nbsp;
 <asp:Button ID="underlineBtn" runat="server" Text="U" Width="30px" Font-Underline="true" ToolTip="Underline" CssClass="button bold-button" />
 <br />
+<textarea id="txtBoxArea" runat="server" aria-multiline="true" title="Text Editor" style="width: 500px;" rows="6"></textarea>
+<br />
+<asp:Button ID="editBtn" runat="server" Text="Edit" ToolTip="Edit Button" />

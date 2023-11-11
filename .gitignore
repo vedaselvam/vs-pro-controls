@@ -10,3 +10,9 @@
 /vs.pro/vs.pro.simple-controls/Web.Debug.config
 /vs.pro/vs.pro.simple-controls/Web.Release.config
 /vs.pro/vs.pro.simple-controls/vs.pro.simple-controls.csproj.user
+/vs.pro/packages
+/vs.pro/vs.pro.test-app/bin
+/vs.pro/vs.pro.test-app/obj/Debug
+/vs.pro/vs.pro.test-app/Web.Debug.config
+/vs.pro/vs.pro.test-app/Web.Release.config
+*.user
