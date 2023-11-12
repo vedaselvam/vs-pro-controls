@@ -16,3 +16,4 @@
 /vs.pro/vs.pro.test-app/Web.Debug.config
 /vs.pro/vs.pro.test-app/Web.Release.config
 *.user
+/vs.pro/vs.pro.simple-controls/key.snk
