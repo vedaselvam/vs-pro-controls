@@ -122,6 +122,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ReferenceFiles\SimpleTextEditor.ascx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -198,6 +199,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceFiles\SimpleTextEditor.ascx.cs">
+      <DependentUpon>SimpleTextEditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReferenceFiles\SimpleTextEditor.ascx.designer.cs">
+      <DependentUpon>SimpleTextEditor.ascx</DependentUpon>
+    </Compile>
     <Compile Include="SimpleTextEditor.aspx.cs">
       <DependentUpon>SimpleTextEditor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,12 +248,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\vs.pro.simple-controls\vs.pro.simple-controls.csproj">
-      <Project>{9715e38e-3420-46c2-a0e2-50cf66a4e292}</Project>
-      <Name>vs.pro.simple-controls</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
